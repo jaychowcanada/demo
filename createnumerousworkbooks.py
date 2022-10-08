@@ -9,5 +9,3 @@ def createNumeriousWorkBooks():
     for year in years:
         workbook = app.books.add()
         workbook.save(f"./{year}.xlsx")
-
-createNumeriousWorkBooks()
